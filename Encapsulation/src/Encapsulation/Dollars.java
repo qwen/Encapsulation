@@ -4,17 +4,19 @@ package Encapsulation;
 public class Dollars {
 	
 	private int dollars = 0;
-	private int kurs = 40;
+	
 	
 
 	public int getDollars() {		
 		return dollars;
 	}
-    
+
 	public void setDollars(int dollars) {
-				
-		dollars = dollars / kurs;
-		System.out.println("У вас всего " + dollars + "$");
+		int e = 6;
+		System.out.println("1 " + dollars);
+		
+		this.dollars = dollars + e;
+		System.out.println("2 " + dollars + e);
 	}
 	
 	
