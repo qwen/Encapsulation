@@ -21,7 +21,7 @@ public class Encapsulation {
 		
 		dollars.setDollars(rub);
 		
-		System.out.println("3 " + dollars);
+		System.out.println(dollars);
 	}
 
 }
