@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 public class Encapsulation {
 	
 	static int rub;
+	static int t;
 	static Dollars dollars = new Dollars();
 	
 	public static void main(String[] args) throws Throwable{
@@ -19,9 +20,9 @@ public class Encapsulation {
 		rub = Integer.parseInt(reader.readLine());
 		
 		
-		dollars.setDollars(rub);
+		t = dollars.setDollars(rub);
 		
-		System.out.println("3 " + dollars);
+		System.out.println("У вас всего " + t + "$");
 	}
 
 }
